@@ -19,7 +19,7 @@ siano, inoltre
 * $b = 2$  
 * $tolleranza = 10^{-10}$
 
-<div style="text-align:center"><img src="img/Cos.png" /></div>
+<div align="center"><img src="img/Cos.png" /></div>
 
 Essendo la funzione continua, le ipotesi del teorema di Bolzano sono rispettate e deve esservi una radice compresa tra $[1, 2]$, quindi 
 $$x^0 = \frac{1+2}{2} = 1.5 $$
@@ -29,7 +29,6 @@ $$x^1 = \frac{1.5 + 2}{2}$$
 Oss. L'algoritmo si ferma quando trova un'approssimazione della radice al disotto di una tolleranza (input) oppure quando raggionge il masismo numero di passi stabilito (input).
 
 ### Di seguito riportata la tabella delle varie iterate generate con Matlab:
-
 
 | Passo |    Valore x    | Stima errore  |
 |:----: |      :----:    |    :----:     |

@@ -4,7 +4,7 @@ a = 1;
 b = 2;
 tol = 1e-10;
 maxIter = 100;
-fprintf("<strong>Passo\t    Valore x \tStima errore</strong>\n")
+fprintf("<strong>Passo\t   Valore x \tStima errore\t   Residuo</strong>\n")
 Bisection(f,a,b,tol,maxIter);
 
 %% Secondo test metodo delle successive bisezioni
@@ -13,7 +13,7 @@ a = 1;
 b = 2;
 tol = 1e-10;
 maxIter = 100;
-fprintf("<strong>Passo\t    Valore x \tStima errore</strong>\n")
+fprintf("<strong>Passo\t   Valore x \tStima errore\t   Residuo</strong>\n")
 Bisection(f,a,b,tol,maxIter);
 
 %% Terzo test metodo delle successive bisezioni
@@ -22,5 +22,5 @@ a = -1;
 b = 1;
 tol = 1e-10;
 maxIter = 100;
-fprintf("<strong>Passo\t    Valore x \tStima errore</strong>\n")
+fprintf("<strong>Passo\t   Valore x \tStima errore\t   Residuo</strong>\n")
 Bisection(f,a,b,tol,maxIter);

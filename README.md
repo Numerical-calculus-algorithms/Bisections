@@ -26,7 +26,7 @@ $$x^{(0)} = \frac{1+2}{2} = 1.5 $$
 La funzione, quindi, sarà valutata, $f(1.5) = cos(1.5) = 0.0707$, essendo un valore positivo si andrà a considerare l'intervallo $[1.5, 2]$ dato che $f(1.5)*f(2) < 0$, quindi la prissima iterata sarà
 $$x^{(1)} = \frac{1.5 + 2}{2}$$
 
-Oss. L'algoritmo si ferma quando trova un'approssimazione della radice al disotto di una tolleranza (input) oppure quando raggionge il masismo numero di passi stabilito (input).
+Oss. L'algoritmo si ferma quando trova un'approssimazione della radice al disotto di una tolleranza (input) oppure quando raggionge il massimo numero di passi stabilito (input).
 
 ### Di seguito riportata la tabella delle varie iterate generate con Matlab:
 
